@@ -1,0 +1,18 @@
+{
+  "name": "dockerized-puppeteer",
+  "version": "0.0.1",
+  "description": "An example of Chrome + Puppeteer both dockerized in their own containers.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^0.13.0",
+    "request": "^2.83.0",
+    "request-promise-native": "^1.0.5",
+    "wait-for-port": "^0.0.2"
+  }
+}
