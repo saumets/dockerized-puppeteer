@@ -1,0 +1,6 @@
+# Mac users
+.DS_Store
+
+# Jetbrains users
+.idea
+*.iml
