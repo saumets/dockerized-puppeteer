@@ -1,4 +1,4 @@
-const puppeteer = require('puppeteer');
+const puppeteer = require('puppeteer-core');
 const request = require('request-promise-native');
 const getContainerIP = require('./util/getContainerIP');
 
@@ -26,11 +26,11 @@ const getContainerIP = require('./util/getContainerIP');
           await page.goto(`https://www.google.com`, { waitUntil: 'networkidle0' });
         }
         catch(e) {
-          console.log(e);
+          console.error(e);
         }
       })();
     })
     .catch((err) => {
-      console.log(err.message);
+      console.error(err);
     });
 })();

@@ -10,7 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^5.3.1",
+    "puppeteer-core": "^5.5.0",
     "request": "^2.83.0",
     "request-promise-native": "^1.0.5",
     "wait-for-port": "^0.0.2"

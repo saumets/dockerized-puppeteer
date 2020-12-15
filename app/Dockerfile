@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:14-alpine
 
 RUN apk add --no-cache python make g++ bind-tools
 
